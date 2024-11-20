@@ -9,11 +9,16 @@
             font-family: Arial, sans-serif;
         }
 
-        #title {
+        .title {
             background-color: blue;
-            color: white;
-            padding: 10px;
+            color: #EEEEEE;
+            padding: 30px;
             text-align: center;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: medium;
         }
 
         .button {
@@ -42,15 +47,18 @@
         div {
             color: rgb(78, 212, 207);
         }
+        .highlight {
+            background-color: cornflowerblue;
+        }
     </style>
     
 </head>
 <body>
-    <h1 id="title">These are top recipes you must try before you die!!!</h1>
+    <h1 class="title">These are top recipes you must try before you die!!!</h1>
     <h3>Before we move to recipes, let's talk about good quality foods which are even great in taste</h3>
     <img src="https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/intro-1645057933.jpg" alt="Indian Food">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyjQdolMoEc8M61t3LSLOHdHHy2mtdEiiC8w&s" alt="Food Image">
-    <p>Indian cuisine offers a perfect balance of taste and health, making it a favorite worldwide...</p>
+    <p>Indian cuisine offers a <span class="highlight">perfect balance of taste and <a href="https://www.who.int/">health</a> </span> , making it a favorite worldwide...</p>
     <p><em><strong>This is the beauty of India and its food. Now take a look at these recipes which are really amazing.</strong></em></p>
     <a href="https://www.indianhealthyrecipes.com/dal-makhani-recipe/">Dal Makhani recipe</a><br>
     <a href="https://www.indianhealthyrecipes.com/mixed-vegetable-curry/">Vegetable Curry recipe</a><br>
