@@ -5,29 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Recipes to Try Right Now</title>
     <style>
-        * {
-            color: blueviolet;
+        body {
+            font-family: Arial, sans-serif;
         }
+
+        #title {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            border: none;
+            margin: 10px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: darkgrey;
+        }
+
+        .button:active {
+            background-color: grey;
+        }
+
         .alert-text {
             color: red;
         }
-            div {
-                color: rgb(78, 212, 207);
-              } 
-        #title {
-            background-color: blue;
-        }   
-        .subsection.header {
-        color: brown;
-        } 
-        .subsection#preview {
-            color: rgb(13, 238, 111);
-        }  
-        *.button {
-            padding: 50px;
-            border: 10px;
-            margin: 30px;
-        } 
+
+        div {
+            color: rgb(78, 212, 207);
+        }
     </style>
     
 </head>
@@ -52,12 +66,12 @@
 <div id="title">My awesome 90's page</div>
 <p>Hi...</p>
 <div>Okay, bye.</div>
-<div>
     <div class="subsection header">latest posts</div>
     <p class="subsection preview" id="preview">
         this is a preview</p>
         <p>like if you haven't</p>
-    <button>like</button>    
+<div>
+    <button class="button" onclick="window.location.href='https://www.youtube.com/shorts/GyGCltLsqD4';">Visit Website</button>
 </div>
 </body>
 </html>
